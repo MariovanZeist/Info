@@ -14,5 +14,5 @@ set the following parameters
 
 ```
 command:           wt
-command arguments: wt -p "Developer PowerShell" -d \"%folder%\"
+command arguments: -p "Developer PowerShell" -d \"%folder%\"
 ```
