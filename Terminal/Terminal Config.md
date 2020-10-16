@@ -10,3 +10,4 @@ Add following section to Profiles:List
     "commandline": "powershell.exe -NoExit -Command \"&{ $vsInstallPath=& \"${env:ProgramFiles(x86)}/'Microsoft Visual Studio'/Installer/vswhere.exe\" -prerelease -latest -property installationPath; Import-Module \"$vsInstallPath/Common7/Tools/Microsoft.VisualStudio.DevShell.dll\"; Enter-VsDevShell -VsInstallPath $vsInstallPath -SkipAutomaticLocation }\"",
 }
 ```
+Follow instructions at: https://docs.microsoft.com/nl-nl/windows/terminal/tutorials/powerline-setup
